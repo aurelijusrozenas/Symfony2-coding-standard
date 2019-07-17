@@ -108,4 +108,34 @@
     <rule ref="Symfony.Commenting.ClassComment.SpacingBeforeTags">
         <message>There should always be a description, followed by a blank line, before the tags of a class comment.</message>
     </rule>
+
+    <!-- Custom rules -->
+    <!-- We don't require licence notice -->
+    <rule ref="Symfony.Commenting.License.Warning">
+        <severity>0</severity>
+    </rule>
+    <!-- We don't require class comments -->
+    <rule ref="Symfony.Commenting.ClassComment.Missing">
+        <severity>0</severity>
+    </rule>
+    <!-- We don't require function comments -->
+    <rule ref="Symfony.Commenting.FunctionComment.Missing">
+        <severity>0</severity>
+    </rule>
+    <!-- We allow any order of function scope -->
+    <rule ref="Symfony.Functions.ScopeOrder.Invalid">
+        <severity>0</severity>
+    </rule>
+    <!-- We allow arguments for function in multiple lines -->
+    <rule ref="Symfony.Functions.Arguments.Invalid">
+        <severity>0</severity>
+    </rule>
+    <!-- We do this `!$isBool` instead of `! $isBool` -->
+    <rule ref="Generic.Formatting.SpaceAfterNot">
+        <severity>0</severity>
+    </rule>
+    <!-- We don't use yoda syntax conditions -->
+    <rule ref="Symfony.ControlStructure.YodaConditions.Invalid">
+        <severity>0</severity>
+    </rule>
 </ruleset>

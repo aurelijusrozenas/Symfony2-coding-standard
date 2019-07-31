@@ -138,4 +138,13 @@
     <rule ref="Symfony.ControlStructure.YodaConditions.Invalid">
         <severity>0</severity>
     </rule>
+    <!--
+        if (true) {
+        } // allow comments like this
+        else {
+        }
+    -->
+    <rule ref="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace">
+        <severity>0</severity>
+    </rule>
 </ruleset>

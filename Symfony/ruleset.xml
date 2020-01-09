@@ -128,6 +128,9 @@
     <rule ref="Symfony.Commenting.FunctionComment.MissingReturn">
         <severity>0</severity>
     </rule>
+    <rule ref="Symfony.Commenting.FunctionComment.ParamNameNoMatch">
+        <severity>0</severity>
+    </rule>
     <!-- We allow any order of function scope -->
     <rule ref="Symfony.Functions.ScopeOrder.Invalid">
         <severity>0</severity>
